@@ -7,16 +7,6 @@
 	<dataSet xsi:type="DataSetQuery">
 		<name>НаборДанных1</name>
 		<field xsi:type="DataSetFieldField">
-			<dataPath>Порядок</dataPath>
-			<field>Порядок</field>
-			<title xsi:type="v8:LocalStringType">
-				<v8:item>
-					<v8:lang>ru</v8:lang>
-					<v8:content>Порядок</v8:content>
-				</v8:item>
-			</title>
-		</field>
-		<field xsi:type="DataSetFieldField">
 			<dataPath>Мастер</dataPath>
 			<field>Мастер</field>
 			<title xsi:type="v8:LocalStringType">
@@ -27,23 +17,25 @@
 			</title>
 		</field>
 		<field xsi:type="DataSetFieldField">
-			<dataPath>Ссылка</dataPath>
-			<field>Ссылка</field>
+			<dataPath>СуммаЗатрат</dataPath>
+			<field>СуммаЗатрат</field>
 			<title xsi:type="v8:LocalStringType">
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Ссылка</v8:content>
+					<v8:content>Сумма затрат</v8:content>
 				</v8:item>
 			</title>
 		</field>
 		<dataSource>ИсточникДанных1</dataSource>
 		<query>ВЫБРАТЬ
 	АктРемонта.Мастер КАК Мастер,
-	ТипРемонта.Ссылка КАК Ссылка,
-	ТипРемонта.Порядок КАК Порядок
+	СУММА(ИспользованныеЗапчасти.Сумма) КАК СуммаЗатрат
 ИЗ
-	Документ.АктРемонта КАК АктРемонта,
-	Перечисление.ТипРемонта КАК ТипРемонта</query>
+	Документ.АктРемонта КАК АктРемонта
+		ЛЕВОЕ СОЕДИНЕНИЕ АктРемонта.ИспользованныеЗапчасти КАК ИспользованныеЗапчасти
+		ПО 1 = 1
+СГРУППИРОВАТЬ ПО
+	АктРемонта.Мастер</query>
 	</dataSet>
 	<template>
 		<name>Макет1</name>
@@ -66,7 +58,7 @@
 		<template>Макет1</template>
 	</fieldTemplate>
 	<fieldTemplate>
-		<field>Порядок</field>
+		<field>СуммаЗатрат</field>
 		<template>Макет2</template>
 	</fieldTemplate>
 	<settingsVariant>
