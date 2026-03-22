@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ConfigDumpInfo xmlns="http://v8.1c.ru/8.3/xcf/dumpinfo" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" format="Hierarchical" version="2.20">
+	<ConfigVersions>
+		<Metadata name="AccumulationRegister.ДвижениеЗапчастей" id="1e20fbd6-d24e-4de6-9278-2714b3210b79" configVersion="adb58d3a97bc2342a2064059c08df7ca00000000">
+			<Metadata name="AccumulationRegister.ДвижениеЗапчастей.Dimension.Склад" id="4e96de3d-d8dc-4d70-b60f-2d2ee6118ebc"/>
+			<Metadata name="AccumulationRegister.ДвижениеЗапчастей.Resource.Количество" id="711ee4f4-b43c-4396-99fd-710a3bfcee18"/>
+			<Metadata name="AccumulationRegister.ДвижениеЗапчастей.Dimension.Запчасть" id="870cbc73-aaf8-4899-bb31-e774f92001de"/>
+		</Metadata>
+		<Metadata name="Catalog.Запчасти" id="27df4c67-6b1e-4775-84e0-822d13c26692" configVersion="5ec7d0e9d885434aa0655c833e34770e00000000">
+			<Metadata name="Catalog.Запчасти.Attribute.НаличиеНаСкладе" id="272237eb-8bc7-4798-80a7-12c078b16a2e"/>
+			<Metadata name="Catalog.Запчасти.Attribute.Стоимость" id="f5b4cb79-2411-4c36-b9ad-71468bbb0dfb"/>
+		</Metadata>
+		<Metadata name="Catalog.Клиенты" id="226f2d4d-f34c-45c8-8f91-92581e90efbe" configVersion="86fb1ea0437e9b40b4659200b061fa4f00000000">
+			<Metadata name="Catalog.Клиенты.Attribute.Email" id="2ad2b2a0-dd7a-4b9f-ba9e-d20889803fcf"/>
+			<Metadata name="Catalog.Клиенты.Attribute.Телефон" id="449e8086-b146-4e7c-8e58-685ef252a77f"/>
+			<Metadata name="Catalog.Клиенты.Attribute.Адрес" id="ad57f9d3-980b-4a43-916f-cd692bf18bc9"/>
+		</Metadata>
+		<Metadata name="Catalog.Мастера" id="c9f9643d-6651-491a-a082-abc1bb420f01" configVersion="ed77bf1a168afe4294b10005db78b47a00000000">
+			<Metadata name="Catalog.Мастера.Attribute.Телефон" id="48450802-cd54-4357-b958-330fe7aba3df"/>
+			<Metadata name="Catalog.Мастера.Attribute.Специализация" id="58afbddd-12a7-48ae-ad15-51fe70fdc7df"/>
+		</Metadata>
+		<Metadata name="Catalog.МоделиТехники" id="29ff14ce-bdf9-435c-87a1-abc2e270b72f" configVersion="9f3f4b7e85a20f49ac046f42c2a8912900000000">
+			<Metadata name="Catalog.МоделиТехники.Attribute.СрокГарантииМесяцев" id="f86b65ec-1708-4a21-a2ef-f8b1ebc6d436"/>
+		</Metadata>
+		<Metadata name="Catalog.Склад" id="3061d25d-8198-413d-aa3b-5f646d3c6e41" configVersion="707f3623fb74f84e9c7202cb40c7010f00000000">
+			<Metadata name="Catalog.Склад.Attribute.Основной" id="3a09ef41-7e46-4247-9221-fda4c5b0f3d0"/>
+		</Metadata>
+		<Metadata name="Configuration.Конфигурация" id="5dbfb0a9-a261-404d-9495-c29756d26b0a" configVersion="18bbc4fc9ddf204e9ea5352ce49717b000000000"/>
+		<Metadata name="Document.АктРемонта" id="f4c60eb7-1ec9-4ea1-a29f-86c684001561" configVersion="2c40e45594e6c44b8185dc4b1ecde5cc00000000">
+			<Metadata name="Document.АктРемонта.TabularSection.ИспользованныеЗапчасти.Attribute.Сумма" id="6cf1fac2-95cc-4649-908a-3e3ce4e795bc"/>
+			<Metadata name="Document.АктРемонта.TabularSection.ИспользованныеЗапчасти.Attribute.Запчасть" id="71b6b0bf-31b4-4feb-964f-b36a3d4a11b7"/>
+			<Metadata name="Document.АктРемонта.Attribute.ДатаВыдачи" id="8cd33472-82d3-4626-b5f6-cec3d4a19ce7"/>
+			<Metadata name="Document.АктРемонта.TabularSection.ИспользованныеЗапчасти" id="8f905534-5f93-4a67-b8ef-e4738d222c98"/>
+			<Metadata name="Document.АктРемонта.TabularSection.ИспользованныеЗапчасти.Attribute.ЦенаЗаЕдиницу" id="952b5855-f999-4088-a4f1-4ecc95795dc2"/>
+			<Metadata name="Document.АктРемонта.Attribute.ДокументПриема" id="ab2a19a6-8a21-4b91-b007-1188b842f6dd"/>
+			<Metadata name="Document.АктРемонта.TabularSection.ИспользованныеЗапчасти.Attribute.Количество" id="b385738f-e3d7-402d-8d5a-65a41a7c39c3"/>
+			<Metadata name="Document.АктРемонта.Attribute.Мастер" id="d9b8f8a9-3078-4918-8fb3-c7ccf9f83629"/>
+		</Metadata>
+		<Metadata name="Document.АктРемонта.Form.ФормаДокумента" id="7b7fb2b2-f8d7-460d-9b4a-fb07271269f3" configVersion="387ddde3cd50b545a8b25c9833dafc6f00000000"/>
+		<Metadata name="Document.АктРемонта.Form.ФормаДокумента.Form" id="7b7fb2b2-f8d7-460d-9b4a-fb07271269f3.0" configVersion="7e1f1ae74b93464ba76e26b8ed78de0300000000"/>
+		<Metadata name="Document.АктРемонта.ObjectModule" id="f4c60eb7-1ec9-4ea1-a29f-86c684001561.0" configVersion="4391f52638c08d428ad47bbb86abcf6000000000"/>
+		<Metadata name="Document.ПриемВРемонт" id="89837163-0a56-4670-af21-b19f509cd1cc" configVersion="f1f6d2a18c56644b93460d1c255eeedc00000000">
+			<Metadata name="Document.ПриемВРемонт.Attribute.СерийныйНомер" id="13e90b12-2a4c-47ad-9480-b0199d0c58bf"/>
+			<Metadata name="Document.ПриемВРемонт.Attribute.МодельТехники" id="16d87043-ed78-4394-a734-6d81b3654e1e"/>
+			<Metadata name="Document.ПриемВРемонт.Attribute.ДатаПриема" id="19676d21-3fdc-46bb-89c4-78fcf828a86f"/>
+			<Metadata name="Document.ПриемВРемонт.TabularSection.Неисправности.Attribute.НаличиеГарантии" id="7db2a75e-3d84-47ab-8a5b-618624676f0c"/>
+			<Metadata name="Document.ПриемВРемонт.TabularSection.Неисправности.Attribute.Комментарий" id="b09765ef-da8c-482f-9b8b-86c2e930171c"/>
+			<Metadata name="Document.ПриемВРемонт.TabularSection.Неисправности" id="b5a44b49-69d1-423a-888f-c3ccf2c1b7ca"/>
+			<Metadata name="Document.ПриемВРемонт.TabularSection.Неисправности.Attribute.ОписаниеНеисправности" id="c153a588-faec-442c-8c6f-3cce4215fb8b"/>
+			<Metadata name="Document.ПриемВРемонт.Attribute.Клиент" id="ec0d0a95-5c01-4dd0-8d37-548b234faab4"/>
+			<Metadata name="Document.ПриемВРемонт.TabularSection.Неисправности.Attribute.ДатаПокупки" id="ecf47a01-896d-4f3e-9dd9-dd000920fb15"/>
+		</Metadata>
+		<Metadata name="Document.ПриемВРемонт.Form.ФормаДокумента" id="6b06e5c5-eaf2-44b0-8acf-da0c35fd7894" configVersion="df4403982f56fa4e883af303a5fb964600000000"/>
+		<Metadata name="Document.ПриемВРемонт.Form.ФормаДокумента.Form" id="6b06e5c5-eaf2-44b0-8acf-da0c35fd7894.0" configVersion="80e38ab6180b474d9e46b0373975982b00000000"/>
+		<Metadata name="Enum.ТипРемонта" id="202fa60c-fc6d-47f7-add5-d3e7556de7ca" configVersion="bae67861552c2e43a0293df8297fd51000000000">
+			<Metadata name="Enum.ТипРемонта.EnumValue.Постгарантийный" id="c587af09-cf09-452f-bb3f-7cc75851a5c9"/>
+			<Metadata name="Enum.ТипРемонта.EnumValue.Гарантийный" id="e448a144-eca9-4ed1-ba38-c52089658c3e"/>
+		</Metadata>
+		<Metadata name="InformationRegister.ГарантийныеУсловия" id="3d679dc9-baad-4a1b-b6ce-644539fa92a4" configVersion="2748e74597154b49880e7540d769ec8100000000">
+			<Metadata name="InformationRegister.ГарантийныеУсловия.Resource.СрокГарантииМесяцев" id="24c10993-2d61-4bde-b367-9fc8109cc639"/>
+			<Metadata name="InformationRegister.ГарантийныеУсловия.Dimension.МодельТехники" id="7fd10971-1714-4827-a8e3-b10c044f7275"/>
+			<Metadata name="InformationRegister.ГарантийныеУсловия.Resource.СтоимостьРемонтаВнеГарантии" id="ec071eaa-e8e6-47e6-b08d-1055a4754dea"/>
+		</Metadata>
+		<Metadata name="Language.Русский" id="f70a54b5-1164-4505-8660-8b82e9fe531c" configVersion="6e4a83628a48f949b8cdba6242ec899500000000"/>
+		<Metadata name="Report.ЗатратыНаРемонт" id="0d38665c-ced5-4d24-a82b-36b85bad278f" configVersion="f7a86caa2dd41b4394f96f9a4a90519300000000"/>
+		<Metadata name="Report.ЗатратыНаРемонт.Template.ОсновнаяСхемаКомпоновкиДанных" id="0dcab405-e398-4722-9803-d4450d8c4354" configVersion="fabfe0c7daaa6149b98d305641b71d8600000000"/>
+		<Metadata name="Report.ЗатратыНаРемонт.Template.ОсновнаяСхемаКомпоновкиДанных.Template" id="0dcab405-e398-4722-9803-d4450d8c4354.0" configVersion="b6d62f076824864c8956e4d2817a1e8f00000000"/>
+		<Metadata name="Report.РемонтыЗаПериод" id="449631b2-a58b-44be-af4f-3ecb5bd51ce3" configVersion="e37b1579ed00d848bffae4d2d497968a00000000"/>
+		<Metadata name="Report.РемонтыЗаПериод.Template.ОсновнаяСхемаКомпоновкиДанных" id="5f20e97e-1e3b-4e8d-b233-efc3e493f388" configVersion="976afa5a1ba5e8458e2e6bb0331d2cb200000000"/>
+		<Metadata name="Report.РемонтыЗаПериод.Template.ОсновнаяСхемаКомпоновкиДанных.Template" id="5f20e97e-1e3b-4e8d-b233-efc3e493f388.0" configVersion="6e1ba00976d45249ac01b1a378e0927b00000000"/>
+		<Metadata name="Subsystem.Администрирование" id="e8703b27-87f9-47e5-aa49-a779a11e838d" configVersion="36da99675f15a4459a987c9cf90433cf00000000"/>
+		<Metadata name="Subsystem.Анализ" id="b02e9fa3-349c-4bf3-8824-88c962ab1e86" configVersion="c2df7f1901d9ad48b8762246e7ac9b9d00000000"/>
+		<Metadata name="Subsystem.Номенклатура" id="13719167-f876-46b8-9e91-1c3f5e4ffe30" configVersion="b14449ce8e66c249ae49dee26567a01c00000000"/>
+		<Metadata name="Subsystem.ОбслуживаниеКлиентов" id="d57ae76e-588a-49be-a49d-3563e8cf3a33" configVersion="13c5a4dc7e747142a78dd1eaf2471cb900000000"/>
+		<Metadata name="Subsystem.УчетРемонта" id="b3f343c8-38ae-4183-8169-0b18d304ace9" configVersion="b34d2d68a98e1f4d873047650d6a53a100000000"/>
+		<Metadata name="Subsystem.УчетРемонта.Subsystem.ГарантийныеУсловия" id="0d043b16-e87b-4c56-8133-c5b7a2576fca" configVersion="390187cde4c85641b8b362d80d92bf2a00000000"/>
+	</ConfigVersions>
+</ConfigDumpInfo>
